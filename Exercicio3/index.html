@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercicio 3</title>
+    <style>
+        div#area {
+            background-color: aqua;
+            font: normal 20pt Arial;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>Não coloque o cursor na caixa</header>
+    <div id="area" > <!--Método clicar-->
+        Interaja...
+    </div>
+
+    <div>
+        <h2>Somar valores</h2>
+        <input type="number" name="textn1" id="txtn1">
+        <input type="number" name="textn2" id="txtn2">
+        <input type="button" value="Somar" onClick="somar()">
+    </div>
+    <div id="result">Resultado</div>
+    <script src="main.js"></script>
 </body>
 </html>

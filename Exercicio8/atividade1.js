@@ -1,10 +1,10 @@
 let num = [1,2,5,4,0]
-num.push(3)
+num.push(6)
 console.log(`Vetor: ${num}`)
 num.sort()
 console.log(`Vetor: ${num}`)
 console.log(`Vetor tem ${num.length} posições`)
-console.log(`o segundo valor do vetor é: ${num[1]}`)
+console.log(`o segundo valor do vetor é: ${num[3]}`)
 console.log("..............................")
 
 for(let pos = 0; pos<num.length ; pos++){

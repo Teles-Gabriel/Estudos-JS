@@ -1,4 +1,4 @@
-let nums = [2,5,1,11,15];
+let nums = [];
 var entrada = 6;
 var twoSum = function(nums, entrada){
     let mp = new Map()
